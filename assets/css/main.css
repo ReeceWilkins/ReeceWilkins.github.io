@@ -1743,7 +1743,7 @@ body{
 .nav-auto{
 	position: absolute;
 	width: 800px;
-	margin-top: 400px;
+	margin-top: 460px;
 	display: flex;
 	justify-content: center;
 }
@@ -1751,22 +1751,22 @@ body{
 	border: 2px solid #b6ff00;
 	padding: 5px;
 	border-radius:10px;
-	transition: 1s;
+	transition: 2s;
 }
 .nav-auto div:not(:last-child){
-	margin-right:20px;
+	margin-right:30px;
 	justify-content:center;
 }
 #radio1:checked ~ .nav-auto .a-b1{
 	background-color: #b6ff00;
 }
-#radio2:checked ~ .nav-auto .a-b2 {
+#radio2:checked ~ .nav-auto .a-b2{
 	background-color: #b6ff00;
 }
-#radio3:checked ~ .nav-auto .a-b3 {
+#radio3:checked ~ .nav-auto .a-b3{
 	background-color: #b6ff00;
 }
-#radio4:checked ~ .nav-auto .a-b4 {
+#radio4:checked ~ .nav-auto .a-b4{
 	background-color: #b6ff00;
 }
 
