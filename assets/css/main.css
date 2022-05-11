@@ -1743,7 +1743,7 @@ body{
 .nav-auto{
 	position: absolute;
 	width: 800px;
-	margin-top: 460px;
+	margin-top: 40px;
 	display: flex;
 	justify-content: center;
 }
