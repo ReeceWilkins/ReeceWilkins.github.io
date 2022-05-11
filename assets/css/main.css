@@ -1749,7 +1749,7 @@ body{
 }
 .nav-auto div{
 	border: 2px solid #b6ff00;
-	padding: 5px;
+	padding: 10px;
 	border-radius:10px;
 	transition: 1s;
 }
