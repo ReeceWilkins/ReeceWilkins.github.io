@@ -1660,6 +1660,14 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+.slider-frame{
+	overflow:hidden;
+	height:396px;
+	width:560px;
+	
+
+}
+
 /* Slide Animation */
 @-webkit-keyframes slide_animation{
 	0% {left:0px;}
