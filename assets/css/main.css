@@ -1660,13 +1660,24 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-.slider-frame{
-	overflow:hidden;
-	height:396px;
-	width:560px;
-	
-
+body{
+	padding: 0;
+	margin:0;
+	height:100vh;
+	justify-self: center;
+	align-items: center;
 }
+
+.section{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.slider
 
 /* Slide Animation */
 @-webkit-keyframes slide_animation{
@@ -1683,22 +1694,4 @@ input, select, textarea {
 	100% {left:0px;}
 
 }
-.slide-images{
-	width: 560px;
-	height: 396px;
-	margin: 0 0 0 -560px;
-	position: relative;
-	-webkit-animation-name: slide_animation;
-	-webkit-animation-duration: 33s;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-direction: alternate;
-	-webkit-animation-play-state: running;
 
-}
-.image-container{
-	height: 800px;
-	width: 1200px;
-	position: relative;
-	float: left;
-
-}
