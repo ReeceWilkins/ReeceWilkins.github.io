@@ -1754,7 +1754,7 @@ body{
 	transition: 1s;
 }
 .nav-auto div:not(:last-child){
-	margin-right:130px;
+	margin-right:20px;
 	justify-content:center;
 }
 
