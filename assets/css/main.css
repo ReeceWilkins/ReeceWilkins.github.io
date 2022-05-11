@@ -1753,4 +1753,8 @@ body{
 	border-radius:10px;
 	transition: 1s;
 }
+.nav-auto div:not(:last-child){
+	margin-right:130px;
+	justify-content:center;
+}
 
